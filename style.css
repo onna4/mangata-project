@@ -1,8 +1,8 @@
 * {
  margin: 0;
  padding: 0;
+ box-sizing: border-box;
 }
-
 body {
     margin: 2%;
     background-color:#d9c8da;
@@ -55,6 +55,7 @@ footer div {
     border: 2px solid rgb(16, 15, 15) ;
     border-radius: 10px;
     margin: 15px 0;
+    max-height: 79rem;
 }
 #article_img {
     width: 99%;
@@ -99,8 +100,8 @@ h2 {
 }
 .earrings, .rings {
     margin-right: 10px;
-} 
-a:link { 
+}
+a:link {
   color: white;
 }
 a:visited {
@@ -128,7 +129,7 @@ a:active {
     background-color: #53503c;
     color: white;
     border-radius: 10px;
-    margin: 15px ;
+    margin: 1em 0;
 }
 nav li:hover {
   transform: scale(1.3);
